@@ -169,7 +169,7 @@ app.get("/getImages", authenticate, async (req, res) => {
 })
 
 
-app.listen(8000, () => {
+app.listen(8080, () => {
 	console.log("server is running at http://localhost:8000");
 });
 
