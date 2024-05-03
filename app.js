@@ -12,7 +12,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: "https://crispy-memory-rpq59rq9prxfq5v-3000.app.github.dev",
+    origin: "https://smartviewgal.netlify.app",
     credentials: true
 }))
 
