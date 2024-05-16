@@ -12,7 +12,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: "https://smartviewgal.netlify.app",
+    origin: ["https://smartviewgal.netlify.app","https://golden-pika-1cd8dc.netlify.app"],
     credentials: true
 }))
 
