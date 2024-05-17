@@ -168,9 +168,9 @@ app.get("/getImages", authenticate, async (req, res) => {
 
 })
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
-	console.log("server is running at http://localhost:8000");
+	console.log("server is running at http://localhost:",port);
 });
 
 
